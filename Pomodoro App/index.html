@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id = "app_wrapper">
+  <div class = "timer_settings">
+    <div class = "break_settings">
+      <button type = "button" id = "break_minus">-</button>
+      <span id = "break"></span>
+      <button type = "button" id = "break_plus">+</button>
+          <p>Break Duration</p>
+    </div>
+
+    <div class = "session_settings">
+      <button type = "button" id = "session_minus">-</button>
+      <span id = "session"></span>
+      <button type = "button" id = "session_plus">+</button>
+          <p>Work Duration</p>
+    </div>
+    
+  </div>
+    <div id = "timer_el">
+      <canvas id = "my_canvas" width = "400px" height = "400px"></canvas>
+          <canvas id = "layer" width = "400px" height = "400px"></canvas>
+
+    <div id = "description">
+    </div>
+    <img id = "play" src = "https://cdn3.iconfinder.com/data/icons/complete-set-icons/512/video512x512.png" width = "120px;"/>
+      <div id = "pause">||</div>
+    <div id = "counter">      
+    </div>  
+    </div>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

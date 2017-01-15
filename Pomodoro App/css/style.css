@@ -1,0 +1,153 @@
+body{
+  background-color:#E85858;
+}
+
+
+
+#app_wrapper{
+  position:absolute;
+  margin-left:30%;
+  font-family:Abel;
+}
+
+/*
+#timer_wrapper{
+  width:320px;
+  height:320px;
+  border:21px solid rgba(0, 153, 255, 0.4);
+  border-radius:50%;
+  background-color:transparent;
+  cursor:pointer;
+  color:#0099FF;
+  color:white;
+  position:relative;
+  left:50%;
+  top:21.5%;
+  z-index:-1;
+  display:inline:block;
+}*/
+
+.timer_settings{
+  height:100px;
+  display:block;
+  margin-top:15%;
+  margin-left:61%;
+  font-size:30px;
+  width:400px;
+  margin-bottom:-10%;
+  color:white;
+
+}
+
+.timer_settings p{
+  font-size:18px;
+  font-family:Sans-serif;
+}
+
+.break_settings{
+  display:inline-block;
+  margin-top:5%;
+  margin-right:10%;
+  width:150px;
+}
+
+
+
+.session_settings{
+  display:inline-block;
+  margin-top:5%;
+  width:150px;
+}
+
+.break_settings button, .session_settings button{
+  background-color:transparent;
+  border:none;
+  width:40px;
+  height:40px;
+  font-family:Times;
+  cursor:pointer;
+}
+
+#break_plus,#session_plus{
+  font-size:30px;
+  color:white;
+  font-weight:700;
+}
+
+#break_minus,#session_minus{
+  font-size:40px;
+    color:white;
+
+}
+
+#timer_el{
+  margin-left:36%;
+  margin-top:30%;
+
+}
+
+#counter{
+  font-size:40px;
+  width:50px;
+  height:50px;
+  position:relative;
+  left:198px;
+  bottom:155px;
+  color:white;
+  font-family:Abel;
+  font-weight:bold;
+  font-size:50px;
+}
+#description{
+  font-size:40px;
+  width:50px;
+  height:50px;
+  position:relative;
+  left:206px;
+  top:258px;
+  color:white;
+  font-family:Sans-serif;
+}
+
+
+#play{
+  position:relative;
+  left:190px;
+  cursor:pointer;
+  top:90px;
+  z-index:12;
+  opacity:0;
+}
+
+#pause{
+  position:relative;
+  left:252px;
+  opacity:1;
+  bottom:12px;
+  font-size:60px;
+  font-weight:700;
+  color:white;
+  font-family:Arial;
+  text-transform:uppercase;
+  transform : scale(1,0.6);
+  -webkit-transform:scale(1.2,0.7); /* Safari and Chrome */
+-moz-transform:scale(1,0.6);/* Firefox */
+-ms-transform:scale(1,0.6); /* IE 9+ */
+-o-transform:scale(1,0.6); /* Opera */
+  cursor:pointer;
+}
+
+
+#layer{
+position:absolute;
+  margin:0 auto;
+  left:50%;
+  z-index:5;
+}
+
+#my_canvas{
+  position:absolute;
+  margin:0 auto;
+  left:50%;
+  z-index:10;
+}

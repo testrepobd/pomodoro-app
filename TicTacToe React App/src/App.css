@@ -1,0 +1,26 @@
+#root{
+	display:flex;
+	justify-content:center;
+	align-content:center;
+	margin-top:10%;
+}
+
+.board{
+	width:514px;
+}
+.cell{
+	width:160px;
+	height:160px;
+	border:1px solid black;
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-content:center;
+}
+span{
+	font-size:40px;
+	margin-top:45px;
+}
+.cell:hover{
+	background-color:#457ABB;
+}
